@@ -67,3 +67,10 @@ a:hover{
   font-size: 4rem;
   font-weight: normal;
 }
+
+/* Contact Section */
+.contact{
+  background-color: var(--plum);
+  text-align: center;
+  padding: 2rem 0;
+}
