@@ -12,3 +12,9 @@ Website from course Getting Started with CSS
 - My Photo
 - 3 examples of my work (Screenshot, title, description, techs (optional))
 - Social media links
+
+## Things i learned
+- Box sizing is not inherited by default
+- Margins don't collapse
+- We need another way to identify links: underline other than color
+- Start with general rules
