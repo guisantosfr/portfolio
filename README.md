@@ -18,3 +18,4 @@ Website from course Getting Started with CSS
 - Margins don't collapse
 - We need another way to identify links: underline other than color
 - Start with general rules
+- Line Height is a proportion
