@@ -71,6 +71,15 @@ a:hover{
 /* Contact Section */
 .contact{
   background-color: var(--plum);
+}
+
+.contact-container{
+  width: 400px;
   text-align: center;
-  padding: 2rem 0;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.contact-link{
+  margin-top: 3rem;
 }
