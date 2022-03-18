@@ -19,3 +19,6 @@ Website from course Getting Started with CSS
 - We need another way to identify links: underline other than color
 - Start with general rules
 - Line Height is a proportion
+- You can use percents to set proportions in font sizes
+- Ul's and ol's have default padding or margin, depending on browser
+- Display block make all the area of a link clickable

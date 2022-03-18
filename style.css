@@ -83,3 +83,40 @@ a:hover{
 .contact-link{
   margin-top: 3rem;
 }
+
+nav{
+  font-family: var(--mono);
+  font-size: 80%;
+  padding: 1rem;
+}
+
+nav h1 a{
+  font-family: var(--sans);
+}
+
+nav ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+nav li:first-child{
+  flex-basis: 100%;
+  text-align: center;
+}
+
+nav a{
+  color: var(--white);
+  text-decoration: none;
+  display: block;
+}
+
+nav a:hover{
+  color: var(--magenta);
+}
