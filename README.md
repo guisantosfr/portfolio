@@ -22,3 +22,4 @@ Website from course Getting Started with CSS
 - You can use percents to set proportions in font sizes
 - Ul's and ol's have default padding or margin, depending on browser
 - Display block make all the area of a link clickable
+- Use icons only when the target knows what that icon is
