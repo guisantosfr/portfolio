@@ -142,6 +142,26 @@ nav h1 [class*="fa-"] {
   background-color: var(--hotmagenta);
 }
 
+footer{
+  text-align: center;
+  padding: 1rem 0;
+}
+
+footer ul{
+  list-style-type: none;
+  margin: 1rem 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+footer li{
+  font-size: 125%;
+}
+
 @media(min-width: 850px){
   nav{
     max-width: 1200px;
