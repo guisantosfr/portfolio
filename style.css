@@ -130,3 +130,14 @@ nav [class*="fa-"] {
 nav h1 [class*="fa-"] {
   font-size: 100%;
 }
+
+.btn{
+  background-color: var(--magenta);
+  padding: .5em;
+  border-radius: 5px;
+}
+
+.btn:hover{
+  color: var(--white);
+  background-color: var(--hotmagenta);
+}
