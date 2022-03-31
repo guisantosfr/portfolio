@@ -13,15 +13,17 @@
   --sans: Oxygen, sans-serif;
 }
 
-html{
+html {
   box-sizing: border-box;
 }
 
-*, *::before, *::after{
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
-body{
+body {
   padding: 0;
   margin: 0;
   font-family: var(--sans);
@@ -30,71 +32,80 @@ body{
   font-size: var(--font-size);
 }
 
-h1, h2, h3{
+h1,
+h2,
+h3 {
   margin: 0;
 }
 
-a{
-  color: var(--magenta);
+a {
+  color: var(--white);
 }
 
-a:hover{
+a:hover {
   color: var(--hotmagenta);
   text-decoration: none;
 }
 
-.intro{
-  padding-bottom: 10rem;
+.intro {
+  padding: 4rem 1rem 10rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.intro p{
+.intro p {
   font-size: 1rem;
   line-height: 1.5;
 }
 
-.name{
+.intro-link {
+  color: var(--magenta);
+}
+
+.name {
   font-family: var(--mono);
 }
 
-.name span{
+.name span {
   font-family: var(--sans);
   font-size: 4rem;
   color: var(--aqua);
   display: block;
 }
 
-.intro h2{
+.intro h2 {
   font-size: 4rem;
   font-weight: normal;
 }
 
+.gradient {
+  background: linear-gradient(90deg, rgba(255, 23, 228, 1) 0%, rgba(134, 251, 251, 1) 100%);
+  height: 3px;
+}
+
 /* Contact Section */
-.contact{
+.contact {
   background-color: var(--plum);
 }
 
-.contact-container{
+.contact-container {
   width: 400px;
   text-align: center;
   margin: 0 auto;
   padding: 3rem 0;
 }
 
-.contact-link{
-  margin-top: 3rem;
-}
-
-nav{
+nav {
   font-family: var(--mono);
   font-size: 80%;
   padding: 1rem;
 }
 
-nav h1 a{
+nav h1 a {
   font-family: var(--sans);
 }
 
-nav ul{
+nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -106,12 +117,12 @@ nav ul{
   gap: 2rem;
 }
 
-nav li:first-child{
+nav li:first-child {
   flex-basis: 100%;
   text-align: center;
 }
 
-nav a{
+nav a {
   color: var(--white);
   text-decoration: none;
   display: block;
@@ -131,23 +142,25 @@ nav h1 [class*="fa-"] {
   font-size: 100%;
 }
 
-.btn{
+.btn {
   background-color: var(--magenta);
   padding: .5em;
   border-radius: 5px;
+  font-family: var(--mono);
+  text-decoration: none;
 }
 
-.btn:hover{
+.btn:hover {
   color: var(--white);
   background-color: var(--hotmagenta);
 }
 
-footer{
+footer {
   text-align: center;
-  padding: 1rem 0;
+  padding: 4rem 0;
 }
 
-footer ul{
+footer ul {
   list-style-type: none;
   margin: 1rem 0;
   padding: 0;
@@ -160,13 +173,13 @@ footer ul{
   font-size: 2rem;
 }
 
-@media(min-width: 850px){
-  nav{
+@media(min-width: 850px) {
+  nav {
     max-width: 1200px;
     margin: 0 auto;
   }
 
-  nav li:first-child{
+  nav li:first-child {
     flex-basis: auto;
     text-align: left;
     margin-right: auto;
