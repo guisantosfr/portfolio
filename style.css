@@ -173,6 +173,56 @@ footer ul {
   font-size: 2rem;
 }
 
+.projects {
+  background-color: var(--darkblue);
+  padding: 4rem 1rem;
+}
+
+.projects h2 {
+  font-size: 2.5rem;
+  margin-bottom: calc(2.5rem * 1.5);
+}
+
+.projects h3 {
+  color: var(--aqua);
+}
+
+.projects h4 {
+  font-size: 1rem;
+  font-family: var(--mono);
+  margin: 0;
+}
+
+.black-box {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.projects ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  gap: 1rem;
+
+  font-size: 1rem;
+}
+
+.projects img {
+  margin: 2rem 0 4rem 0;
+  border-top: 1px solid var(--aqua);
+  border-left: 1px solid var(--aqua);
+  border-radius: 25px;
+  padding: 1rem;
+}
+
 @media(min-width: 850px) {
   nav {
     max-width: 1200px;
