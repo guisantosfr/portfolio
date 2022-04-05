@@ -39,7 +39,7 @@ h3 {
 }
 
 a {
-  color: var(--white);
+  color: var(--magenta);
 }
 
 a:hover {
@@ -148,6 +148,7 @@ nav h1 [class*="fa-"] {
 
 .btn {
   background-color: var(--magenta);
+  color: var(--white);
   padding: .5em;
   border-radius: 5px;
   font-family: var(--mono);
@@ -155,8 +156,8 @@ nav h1 [class*="fa-"] {
 }
 
 .btn:hover {
-  color: var(--white);
   background-color: var(--hotmagenta);
+  color: var(--white);
 }
 
 footer {
@@ -230,11 +231,18 @@ footer ul {
 @media(min-width: 550px) {
   article {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(10, 1fr);
     gap: 1rem;
   }
 
+  .projects img {
+    grid-column: 1 / 6;
+    grid-row: 1 / 2;
+  }
+
   .text {
+    grid-column: 5 / 11;
+    grid-row: 1 / 2;
     order: 2;
     text-align: right;
   }
