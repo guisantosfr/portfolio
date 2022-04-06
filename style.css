@@ -102,7 +102,7 @@ img {
 nav {
   font-family: var(--mono);
   font-size: 80%;
-  padding: 1rem;
+  padding: 3rem 1rem;
 }
 
 nav h1 a {
@@ -178,21 +178,23 @@ footer ul {
   font-size: 2rem;
 }
 
-.projects {
+.projects,
+.about {
   background-color: var(--darkblue);
   padding: 4rem 1rem;
 }
 
-.projects h2 {
+.projects h2,
+.about h2 {
   font-size: 2.5rem;
   margin-bottom: calc(2.5rem * 1.5);
 }
 
-.projects h3 {
+.text h3 {
   color: var(--aqua);
 }
 
-.projects h4 {
+.text h4 {
   font-size: 1rem;
   font-family: var(--mono);
   margin: 0;
@@ -207,7 +209,7 @@ footer ul {
   line-height: 1.5;
 }
 
-.projects ul {
+.text ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -220,7 +222,8 @@ footer ul {
   font-size: 1rem;
 }
 
-.projects img {
+.projects img,
+.about img {
   margin: 2rem 0 4rem 0;
   border-top: 1px solid var(--aqua);
   border-left: 1px solid var(--aqua);
@@ -240,7 +243,8 @@ footer ul {
     margin: 0 auto;
   }
 
-  .projects img {
+  .projects img,
+  .about img {
     grid-column: 1 / 6;
     grid-row: 1 / 2;
   }
@@ -252,7 +256,7 @@ footer ul {
     text-align: right;
   }
 
-  .projects ul {
+  .text ul {
     justify-content: flex-end;
   }
 
