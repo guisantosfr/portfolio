@@ -20,3 +20,4 @@ Website from course Getting Started with CSS
 - Custom colors
 - Hamburger Button
 - Contact form instead of email button
+- Lazy loading (best images format)
