@@ -1,5 +1,5 @@
 # Portfolio Website
-Website from course Getting Started with CSS
+Website from course [Getting Started with CSS](https://frontendmasters.com/courses/getting-started-css/)
 
 ## Things i learned
 - Box sizing is not inherited by default.
@@ -12,10 +12,3 @@ Website from course Getting Started with CSS
 - Display block make all the area of a link clickable.
 - Use icons only when the target knows what that icon is.
 - Buttons have functionality associated with it, while links makes us go to another page or somewhere on the same webpage.
-
-## TODO
-- My projects
-- My Bio (with my photo)
-- Custom colors
-- Contact form instead of email button
-- Lazy loading (best images format)
