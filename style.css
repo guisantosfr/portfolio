@@ -58,7 +58,7 @@ img {
 }
 
 .intro p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.5;
 }
 
@@ -78,7 +78,7 @@ img {
 }
 
 .intro h2 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: normal;
 }
 
@@ -101,7 +101,7 @@ img {
 
 nav {
   font-family: var(--mono);
-  font-size: 80%;
+  font-size: 90%;
   padding: 3rem 1rem;
 }
 
@@ -197,7 +197,7 @@ footer ul {
 .text h4 {
   font-size: 1rem;
   font-family: var(--mono);
-  margin: 0;
+  margin-bottom: .5rem;
 }
 
 .black-box {
@@ -205,7 +205,6 @@ footer ul {
   color: var(--white);
   padding: 1rem;
   border-radius: 10px;
-  font-size: 1rem;
   line-height: 1.5;
 }
 
@@ -219,7 +218,7 @@ footer ul {
   justify-content: flex-start;
   gap: 1rem;
 
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .projects img,

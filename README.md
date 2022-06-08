@@ -14,10 +14,8 @@ Website from course Getting Started with CSS
 - Buttons have functionality associated with it, while links makes us go to another page or somewhere on the same webpage.
 
 ## TODO
-- Link to download resume
 - My projects
 - My Bio (with my photo)
 - Custom colors
-- Hamburger Button
 - Contact form instead of email button
 - Lazy loading (best images format)
