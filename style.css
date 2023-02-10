@@ -52,7 +52,7 @@ img {
 }
 
 .intro {
-  padding: 4rem 1rem 10rem 1rem;
+  padding: 5rem 1rem 10rem 1rem;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -97,6 +97,10 @@ img {
   text-align: center;
   margin: 0 auto;
   padding: 3rem 0;
+}
+
+.contact-container p {
+  margin-bottom: 2rem;
 }
 
 nav {
@@ -181,7 +185,7 @@ footer ul {
 .projects,
 .about {
   background-color: var(--darkblue);
-  padding: 4rem 1rem;
+  padding: 3rem 1rem;
 }
 
 .projects h2,
