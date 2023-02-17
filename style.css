@@ -307,3 +307,13 @@ footer ul {
     padding: 3rem;
   }
 }
+
+@media(max-width: 550px) {
+  .about img {
+    margin: 3rem auto;
+
+    display: flex;
+    align-self: center;
+  }
+
+}
