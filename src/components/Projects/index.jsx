@@ -8,7 +8,7 @@ function Projects({projects}){
       <h2>Meus projetos</h2>
 
       {
-        projects.map(project => <Project key={project.name} project={project}/>)
+        projects.map((project, index) => <Project key={project.name} project={project} index={index}/>)
       }
 
     </div>

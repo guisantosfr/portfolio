@@ -1,8 +1,10 @@
 import './styles.css'
 
-function Project({ project } ){
+function Project({ project, index } ){
+  const isOdd = index % 2 !== 0
+
   return(
-    <article>
+    <article className={isOdd ? 'reverse' : null}>
         <div className="text">
           <h3>{project.name}</h3>
 

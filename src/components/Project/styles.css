@@ -1,3 +1,11 @@
+article img{
+  margin: 2rem 0 4rem 0;
+  border-top: 2px solid var(--aqua);
+  border-left: 2px solid var(--aqua);
+  border-radius: 25px;
+  padding: 1rem;
+}
+
 .text h3 {
   color: var(--aqua);
 }
@@ -36,6 +44,11 @@
     gap: 1rem;
   }
 
+  article img{
+    grid-column: 1 / 6;
+    grid-row: 1 / 2;
+  }
+
   .text {
     grid-column: 5 / 11;
     grid-row: 1 / 2;
@@ -45,5 +58,19 @@
 
   .text ul {
     justify-content: flex-end;
+  }
+
+  .reverse .text {
+    grid-column: 1 / 7;
+    text-align: left;
+  }
+
+  .reverse img {
+    grid-column: 6 / 11;
+    grid-row: 1 / 2;
+  }
+
+  .reverse ul {
+    justify-content: flex-start;
   }
 }

@@ -7,13 +7,6 @@ const projects = [
     img: 'https://user-images.githubusercontent.com/32960040/197558555-4caed6b9-9070-47a1-b789-5875f63f8c34.JPG'
   },
   {
-    name: 'Teste técnico - Ecommerce',
-    description: 'Aplicação Vue.js de e-commerce desenvolvida para o teste de codificação de desenvovledor front-end em uma empresa.',
-    sourceCode: 'https://github.com/guisantosfr/infog2-teste',
-    liveUrl: null,
-    img: null
-  },
-  {
     name: 'Minha carteira',
     description: 'Dashboard desenvolvido com ReactJs, Typescript e Styled Components.',
     sourceCode: 'https://github.com/guisantosfr/minha-carteira',
@@ -25,28 +18,28 @@ const projects = [
     description: 'Protótipo de aplicação front-end de e-commerce desenvolvido na disciplina de Engenharia de Software 2, na UFPI, utilizando React.',
     sourceCode: 'https://github.com/guisantosfr/Fashion-Shop',
     liveUrl: null,
-    img: null
+    img: 'https://user-images.githubusercontent.com/32960040/237448079-bc5a2a46-175a-476a-baa9-8989c30d0409.jpg'
   },
   {
     name: 'Dog Viewer',
     description: 'Aplicação que obtém imagens aleatórias de cachorros de uma API pública. Desenvolvido com HTML, CSS, Bootstrap e Javascript (em duas versões: Fetch API e AJAX).',
     sourceCode: 'https://github.com/guisantosfr/Dog-Viewer',
     liveUrl: 'https://guisantosfr.github.io/Dog-Viewer/',
-    img: null
+    img: 'https://raw.githubusercontent.com/guisantosfr/Dog-Viewer/main/assets/demonstration.gif'
   },
   {
     name: 'Loopstudios Landing Page',
     description: 'Desafio nível júnior do Frontend Mentor. Desenvovido com with HTML, SASS e abordagem Mobile-First.',
     sourceCode: 'https://github.com/guisantosfr/Loopstudios-landing-page',
     liveUrl: 'https://guisantosfr.github.io/Loopstudios-landing-page/',
-    img: null
+    img: 'https://user-images.githubusercontent.com/32960040/237445971-38212a79-e97f-4c67-b861-abd97856d733.JPG'
   },
   {
     name: 'Clipboard Landing Page',
     description: 'Desafio nível júnior do Frontend Mentor. Desenvovido com with HTML, BEM, SASS e abordagem Mobile-First.',
     sourceCode: 'https://github.com/guisantosfr/Clipboard-Landing-Page',
     liveUrl: 'https://guisantosfr.github.io/Clipboard-Landing-Page/',
-    img: null
+    img: 'https://raw.githubusercontent.com/guisantosfr/Clipboard-Landing-Page/main/images/screenshot.jpg'
   }
 ]
 
