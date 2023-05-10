@@ -1,0 +1,29 @@
+.projects{
+  background-color: var(--darkblue);
+  padding: 3rem 1rem;
+}
+
+.projects h2{
+  font-size: 2.5rem;
+  margin-bottom: calc(2.5rem * 1.5);
+}
+
+.projects img{
+  margin: 2rem 0 4rem 0;
+  border-top: 2px solid var(--aqua);
+  border-left: 2px solid var(--aqua);
+  border-radius: 25px;
+  padding: 1rem;
+}
+
+@media(min-width: 550px) {
+  .projects img{
+    grid-column: 1 / 6;
+    grid-row: 1 / 2;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}

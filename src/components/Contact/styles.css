@@ -1,0 +1,14 @@
+.contact {
+  background-color: var(--blue-1);
+}
+
+.contact-container {
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.contact-container p {
+  margin-bottom: 2rem;
+}

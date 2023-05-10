@@ -1,0 +1,34 @@
+.about {
+  background-color: var(--darkblue);
+  padding: 3rem 1rem;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: calc(2.5rem * 1.5);
+}
+
+.about img {
+  margin: 0;
+  border-top: 2px solid var(--aqua);
+  border-left: 2px solid var(--aqua);
+  border-radius: 25px;
+  padding: 1rem;
+  width: 70%;
+}
+
+@media(min-width: 550px) {
+  .about img {
+    grid-column: 1 / 6;
+    grid-row: 1 / 2;
+  }
+}
+
+@media(max-width: 550px) {
+  .about img {
+    margin: 3rem auto;
+
+    display: flex;
+    align-self: center;
+  }
+}

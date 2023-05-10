@@ -1,165 +1,20 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap" rel="stylesheet">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Francisco Guilherme - Portfolio</title>
 
-  <link rel="stylesheet" href="./style.css">
-  <title>Francisco Guilherme - Portfolio</title>
-
-  <script src="https://kit.fontawesome.com/4356fd9e69.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <nav>
-    <ul>
-      <li>
-        <h1><a href="#">
-            <span class="fa-solid fa-laptop-code" aria-hidden="true"></span>
-            <span>Francisco Guilherme</span>
-          </a>
-        </h1>
-      </li>
-      <li><a href="#projects">Projetos</a></li>
-      <li><a href="./about.html">Sobre</a></li>
-      <li><a href="#contact">Contato</a></li>
-      <li><a href="https://www.linkedin.com/in/guisantosfr" target="_blank">
-          <span class="fa-brands fa-linkedin" aria-hidden="true"></span>
-          <span class="sr-only">LinkedIn</span></a>
-      </li>
-      <li><a href="https://www.github.com/guisantosfr" target="_blank">
-          <span class="fa-brands fa-git-square" aria-hidden="true"></span>
-          <span class="sr-only">Github</span></a>
-      </li>
-      <li><a href="./assets/Curriculo-FGSF.pdf" class="btn" target="_blank">Currículo</a></li>
-    </ul>
-  </nav>
-
-  <div class="gradient"></div>
-
-  <section class="intro">
-    <p class="name">Oi, eu sou<span>Francisco Guilherme.</span></p>
-    <h2>Desenvolvedor e estudante</h2>
-  </section>
-
-  <div class="gradient"></div>
-
-  <section id="projects" class="projects">
-    <div class="container">
-      <h2>Meus projetos</h2>
-
-      <article>
-        <div class="text">
-          <h3>Where in the world</h3>
-
-          <p class="black-box">Desafio nível avançado do <a href="https://www.frontendmentor.io/">Frontend Mentor</a>,
-            desenvolvido com Vue.js, que obtém dados de uma API REST e possui funcionalidades de busca, filtragem e
-            visualização de detalhes de um país.
-          </p>
-
-          <ul>
-            <li><a href="https://github.com/guisantosfr/where-in-the-world" class="btn" target="_blank">Código Fonte</a>
-            </li>
-            <li><a href="https://where-in-the-world-brown.vercel.app/" class="btn" target="_blank">Página</a></li>
-          </ul>
-        </div>
-
-        <img src="./img/where-in-the-world.jpg" alt="Screenshot of Where in the world project" loading="lazy" />
-      </article>
-
-      <article class="reverse">
-        <div class="text">
-          <h3>Minha Carteira</h3>
-
-          <p class="black-box">Dashboard desenvolvido com ReactJs, Typescript e Styled Components.</p>
-
-          <ul>
-            <li><a href="https://github.com/guisantosfr/minha-carteira" class="btn" target="_blank">Código Fonte</a>
-            </li>
-            <li><a href="https://minha-carteira-zeta.vercel.app/" class="btn" target="_blank">Página</a></li>
-          </ul>
-        </div>
-
-        <img src="./img/minha-carteira.JPG" alt="Screenshot of Minha Carteira Dashboard." loading="lazy" />
-      </article>
-
-      <article>
-        <div class="text">
-          <h3>Fashion Shop</h3>
-
-          <p class="black-box">Protótipo de aplicação front-end de e-commerce desenvolvido na disciplina de Engenharia
-            de Software
-            2, na UFPI, utilizando React.</p>
-
-          <ul>
-            <li><a href="https://github.com/guisantosfr/Fashion-Shop" class="btn" target="_blank">Código Fonte</a>
-            </li>
-          </ul>
-        </div>
-
-        <img src="./img/fashion-shop.JPG" alt="Screenshot of Fashion Shop project" loading="lazy" />
-      </article>
-
-      <article class="reverse">
-        <div class="text">
-          <h3>Loopstudios Landing Page</h3>
-
-          <p class="black-box">Desafio nível júnior do <a href="https://www.frontendmentor.io/">Frontend Mentor</a>
-            . Desenvovido com with HTML, SASS e abordagem Mobile-First.</p>
-
-          <ul>
-            <li><a href="https://github.com/guisantosfr/Loopstudios-landing-page" class="btn" target="_blank">Código
-                Fonte</a>
-            </li>
-            <li><a href="https://guisantosfr.github.io/Loopstudios-landing-page/" class="btn" target="_blank">Página</a>
-            </li>
-          </ul>
-        </div>
-
-        <img src="./img/loopstudios.JPG" alt="Screenshot of loopstudios Landing page" loading="lazy" />
-      </article>
-    </div>
-  </section>
-
-  <div class="gradient"></div>
-
-  <section id="contact" class="contact">
-    <div class="contact-container">
-      <h2>Contato</h2>
-      <p>Tenho interesse em receber informações sobre oportunidades de trabalho e feedbacks sobre meus projetos.</p>
-      <a class="btn" href="mailto:santosgui678@gmail.com">Email</a>
-    </div>
-  </section>
-
-  <div class="gradient"></div>
-
-  <footer>
-    <h2>Guilherme Santos &middot; Desenvolvedor</h2>
-
-    <ul>
-      <li><a href="https://www.linkedin.com/in/guisantosfr" target="_blank">
-          <span class="fa-brands fa-linkedin" aria-hidden="true"></span>
-          <span class="sr-only">LinkedIn</span></a>
-      </li>
-      <li><a href="https://www.github.com/guisantosfr" target="_blank">
-          <span class="fa-brands fa-git-square" aria-hidden="true"></span>
-          <span class="sr-only">Github</span></a>
-      </li>
-      <li><a href="mailto:santosgui678@gmail.com" target="_blank">
-          <span class="fa-solid fa-envelope" aria-hidden="true"></span>
-          <span class="sr-only">Email</span></a>
-      </li>
-    </ul>
-
-    <p><small>&copy; 2023 Guilherme Santos. All rights reserved.</small></p>
-  </footer>
-
-</body>
-
+    <script src="https://kit.fontawesome.com/4356fd9e69.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

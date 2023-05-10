@@ -1,0 +1,17 @@
+footer {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 1rem 0;
+  padding: 0;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-size: 2rem;
+}
