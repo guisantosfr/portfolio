@@ -8,21 +8,21 @@ const projects = [
   },
   {
     name: 'Minha carteira',
-    description: 'Dashboard desenvolvido com ReactJs, Typescript e Styled Components.',
+    description: 'Dashboard desenvolvido com ReactJs, Typescript e Styled Components. Possui responsividade, temas dark e light, animações, filtros, etc.',
     sourceCode: 'https://github.com/guisantosfr/minha-carteira',
     liveUrl: 'https://minha-carteira-zeta.vercel.app/',
     img: 'https://user-images.githubusercontent.com/32960040/172261238-4c05ee9c-477b-40e5-a7f2-2396b52e2591.gif'
   },
   {
     name: 'Fashion Shop',
-    description: 'Protótipo de aplicação front-end de e-commerce desenvolvido na disciplina de Engenharia de Software 2, na UFPI, utilizando React.',
+    description: 'Protótipo front-end de e-commerce desenvolvido na disciplina de Engenharia de Software 2, na UFPI, utilizando React e Redux.',
     sourceCode: 'https://github.com/guisantosfr/Fashion-Shop',
     liveUrl: null,
     img: 'https://user-images.githubusercontent.com/32960040/237448079-bc5a2a46-175a-476a-baa9-8989c30d0409.jpg'
   },
   {
     name: 'Dog Viewer',
-    description: 'Aplicação que obtém imagens aleatórias de cachorros de uma API pública. Desenvolvido com HTML, CSS, Bootstrap e Javascript (em duas versões: Fetch API e AJAX).',
+    description: 'Aplicação que obtém imagens aleatórias de cães de uma API pública. Desenvolvido com HTML, CSS, Bootstrap e Javascript (em duas versões: Fetch API e AJAX).',
     sourceCode: 'https://github.com/guisantosfr/Dog-Viewer',
     liveUrl: 'https://guisantosfr.github.io/Dog-Viewer/',
     img: 'https://raw.githubusercontent.com/guisantosfr/Dog-Viewer/main/assets/demonstration.gif'
