@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-import resume from '../../assets/Curriculo-FGSF.pdf'
+import resume from '../../assets/Curriculo_GS.pdf'
 
 import './styles.css'
 
@@ -12,7 +12,7 @@ function Header(){
         <h1>
           <Link to="/">
             <span className="fa-solid fa-laptop-code" aria-hidden="true"></span>
-            <span>Francisco Guilherme</span>
+            <span>Guilherme Santos</span>
           </Link>
         </h1>
       </li>
