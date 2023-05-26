@@ -35,11 +35,11 @@ const projects = [
     img: 'https://user-images.githubusercontent.com/32960040/237445971-38212a79-e97f-4c67-b861-abd97856d733.JPG'
   },
   {
-    name: 'Clipboard Landing Page',
-    description: 'Desafio nível júnior do Frontend Mentor. Desenvovido com with HTML, BEM, SASS e abordagem Mobile-First.',
-    sourceCode: 'https://github.com/guisantosfr/Clipboard-Landing-Page',
-    liveUrl: 'https://guisantosfr.github.io/Clipboard-Landing-Page/',
-    img: 'https://raw.githubusercontent.com/guisantosfr/Clipboard-Landing-Page/main/images/screenshot.jpg'
+    name: 'Advice generator app',
+    description: 'Desafio nível júnior do Frontend Mentor. Aplicação que obtém conselhos aleatórios de uma API externa. Desenvolvido com HTML, CSS e Javascript (Fetch API).',
+    sourceCode: 'https://github.com/guisantosfr/advice-generator-app',
+    liveUrl: 'https://guisantosfr.github.io/advice-generator-app/',
+    img: 'https://user-images.githubusercontent.com/32960040/176930000-6ee750b3-5681-4a0f-8d8e-9ba3c0b3c292.JPG'
   }
 ]
 
