@@ -1,5 +1,12 @@
 const projects = [
   {
+    name: 'Vue e-commerce',
+    description: 'Aplicação de e-commerce desenvolvida com Vue.js para um teste técnico, que obtém dados de produtos e categorias de uma API REST e possui funcionalidades de visualização de produto e carrinho.',
+    sourceCode: 'https://github.com/guisantosfr/vue-ecommerce',
+    liveUrl: 'https://vue-ecommerce-guisantosfr.vercel.app/',
+    img: 'https://user-images.githubusercontent.com/32960040/242254709-5e616df4-df0d-433e-9a1e-8bc3f973e8a8.JPG'
+  },
+  {
     name: 'Where in the world',
     description: 'Desafio nível avançado do Frontend Mentor, desenvolvido com Vue.js, que obtém dados de uma API REST e possui funcionalidades de busca, filtragem e visualização de detalhes de um país.',
     sourceCode: 'https://github.com/guisantosfr/where-in-the-world',
@@ -12,13 +19,6 @@ const projects = [
     sourceCode: 'https://github.com/guisantosfr/minha-carteira',
     liveUrl: 'https://minha-carteira-zeta.vercel.app/',
     img: 'https://user-images.githubusercontent.com/32960040/172261238-4c05ee9c-477b-40e5-a7f2-2396b52e2591.gif'
-  },
-  {
-    name: 'Fashion Shop',
-    description: 'Protótipo front-end de e-commerce desenvolvido na disciplina de Engenharia de Software 2, na UFPI, utilizando React e Redux.',
-    sourceCode: 'https://github.com/guisantosfr/Fashion-Shop',
-    liveUrl: null,
-    img: 'https://user-images.githubusercontent.com/32960040/237448079-bc5a2a46-175a-476a-baa9-8989c30d0409.jpg'
   },
   {
     name: 'Dog Viewer',
