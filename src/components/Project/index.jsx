@@ -19,6 +19,7 @@ function Project({ project, index } ){
                 <li><a href={project.liveUrl} className="btn" target="_blank">Página</a></li> :
                 null
             }
+            <li><a href={`/project/${project.id}`} className="btn">Ver mais</a></li>
           </ul>
         </div>
 
