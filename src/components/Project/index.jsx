@@ -9,7 +9,7 @@ function Project({ project, index } ){
           <h3>{project.name}</h3>
 
           <p className="black-box">
-            {project.shortDescription}
+            {project.description}
           </p>
 
           <ul>
@@ -19,7 +19,11 @@ function Project({ project, index } ){
                 <li><a href={project.liveUrl} className="btn" target="_blank">Página</a></li> :
                 null
             }
-            <li><a href={`/project/${project.id}`} className="btn">Ver mais</a></li>
+            {
+              project.linkedinPost !== null ?
+                <li><a href={project.linkedinPost} className="btn" target="_blank">Post no Linkedin</a></li> :
+                null
+            }
           </ul>
         </div>
 
