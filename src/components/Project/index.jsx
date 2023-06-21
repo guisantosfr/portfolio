@@ -9,7 +9,7 @@ function Project({ project, index } ){
           <h3>{project.name}</h3>
 
           <p className="black-box">
-            {project.description}
+            {project.shortDescription}
           </p>
 
           <ul>

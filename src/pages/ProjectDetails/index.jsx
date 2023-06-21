@@ -24,7 +24,35 @@ function ProjectDetails(){
       <Header/>
       <Gradient/>
 
-      <h2>Project : { project.name }</h2>
+      <section className='project__details'>
+        <h2>{ project.name }</h2>
+
+        <img src={project.img} alt={`Screenshot of ${project.name}`} loading="lazy" />
+
+        <p>{project.description}</p>
+
+        <ul>
+            <li><a href={project.sourceCode} className="btn" target="_blank">Código</a></li>
+            {
+              project.liveUrl !== null ?
+                <li><a href={project.liveUrl} className="btn" target="_blank">Página</a></li> :
+                null
+            }
+            {
+              project.linkedinPost !== null ?
+                <li><a href={project.linkedinPost} className="btn" target="_blank">Linkedin Post</a></li> :
+                null
+            }
+        </ul>
+
+        <h3>Tecnologias utilizadas</h3>
+
+        <ul>
+          {project.techs?.map(tech => <li key={tech}>{tech}</li>)}
+        </ul>
+
+      </section>
+
 
 
       <Gradient/>
