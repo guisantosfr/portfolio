@@ -74,3 +74,9 @@ article img{
     justify-content: flex-start;
   }
 }
+
+@media(max-width: 782px){
+  .text ul li:last-child{
+    margin-top: 1rem;
+  }
+}
