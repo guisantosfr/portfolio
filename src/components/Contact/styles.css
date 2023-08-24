@@ -12,3 +12,7 @@
 .contact-container p {
   margin-bottom: 2rem;
 }
+
+.contact-container a {
+  margin: 0 1rem;
+}
