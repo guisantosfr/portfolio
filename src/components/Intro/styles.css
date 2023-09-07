@@ -20,12 +20,54 @@
 
 .name span {
   font-family: var(--sans);
-  font-size: 4rem;
+  font-size: 2.5rem;
   color: var(--aqua);
   display: block;
+  max-width: 550px;
+
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+
+  animation:
+    typing 4s steps(40, end),
+    blink-caret 1s step-end infinite;
 }
 
 .intro h2 {
-  font-size: 3rem;
+  font-size: 1.5rem;
   font-weight: normal;
+}
+
+@media(min-width: 650px) {
+  .name span {
+    font-size: 4rem;
+    border-right: .25rem solid var(--blue-3);
+  }
+
+  .intro h2 {
+    font-size: 3rem;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0
+    }
+
+    to {
+      width: 100%
+    }
+  }
+
+  @keyframes blink-caret {
+
+    from,
+    to {
+      border-color: transparent
+    }
+
+    50% {
+      border-color: var(--blue-3);
+    }
+  }
 }
