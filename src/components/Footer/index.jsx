@@ -34,6 +34,13 @@ function Footer() {
       </ul>
 
       <p><small>&copy; 2023 Guilherme Santos. Todos os direitos reservados.</small></p>
+
+      <p className="back-to-top" onClick={() => {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        })
+      }}>Voltar ao topo</p>
     </footer>
   )
 }
