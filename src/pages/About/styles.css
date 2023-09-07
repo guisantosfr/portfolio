@@ -14,7 +14,16 @@
   border-left: 2px solid var(--aqua);
   border-radius: 25px;
   padding: 1rem;
-  width: 70%;
+  width: 62.5%;
+
+  transform: rotate(5deg);
+  transition: transform .5s;
+}
+
+.about img:hover {
+  cursor: pointer;
+  transform: rotate(0);
+  transition: transform .5s;
 }
 
 @media(min-width: 550px) {
