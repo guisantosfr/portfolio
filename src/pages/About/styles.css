@@ -1,6 +1,6 @@
 .about {
   background-color: var(--darkblue);
-  padding: 3rem 1rem;
+  padding: 3rem;
 }
 
 .about h2 {
@@ -26,18 +26,15 @@
   transition: transform .5s;
 }
 
-@media(min-width: 550px) {
+@media(max-width: 650px) {
   .about img {
-    grid-column: 1 / 6;
-    grid-row: 1 / 2;
+    display: none;
   }
 }
 
-@media(max-width: 550px) {
+@media(min-width: 750px) {
   .about img {
-    margin: 3rem auto;
-
-    display: flex;
-    align-self: center;
+    grid-column: 1 / 6;
+    grid-row: 1 / 2;
   }
 }

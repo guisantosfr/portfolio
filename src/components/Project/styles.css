@@ -1,4 +1,4 @@
-article img{
+article img {
   margin: 2rem 0 4rem 0;
   border-top: 2px solid var(--aqua);
   border-left: 2px solid var(--aqua);
@@ -37,14 +37,14 @@ article img{
   font-size: 1.1rem;
 }
 
-@media(min-width: 550px) {
+@media(min-width: 650px) {
   article {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    gap: 1rem;
+    gap: 2rem;
   }
 
-  article img{
+  article img {
     grid-column: 1 / 6;
     grid-row: 1 / 2;
   }
@@ -72,11 +72,5 @@ article img{
 
   .reverse ul {
     justify-content: flex-start;
-  }
-}
-
-@media(max-width: 782px){
-  .text ul li:last-child{
-    margin-top: 1rem;
   }
 }
