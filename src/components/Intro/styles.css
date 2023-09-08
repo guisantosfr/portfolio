@@ -30,7 +30,7 @@
   margin: 0 auto;
 
   animation:
-    typing 4s steps(40, end),
+    4s typing .5s steps(40, end),
     blink-caret 1s step-end infinite;
 }
 
