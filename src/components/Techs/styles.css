@@ -1,18 +1,18 @@
-.contact {
+.techs {
   background-color: var(--blue-1);
 }
 
-.contact-container {
+.techs-container {
   max-width: 400px;
   text-align: center;
   margin: 0 auto;
   padding: 3rem 0;
 }
 
-.contact-container p {
+.techs-container p {
   margin-bottom: 2rem;
 }
 
-.contact-container a {
+.techs-container a {
   margin: 0 1rem;
 }

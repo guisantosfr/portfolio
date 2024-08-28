@@ -37,7 +37,7 @@ nav [class*="fa-"]:hover {
 }
 
 nav [class*="fa-"] {
-  font-size: 150%;
+  font-size: 160%;
   color: var(--aqua);
 }
 

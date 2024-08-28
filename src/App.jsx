@@ -2,7 +2,7 @@ import Header from './components/Header'
 import Gradient from './components/Gradient'
 import Intro from './components/Intro'
 import Projects from './components/Projects'
-import Contact from './components/Contact'
+import Techs from './components/Techs'
 import Footer from './components/Footer'
 
 import projectsData from './projects'
@@ -16,7 +16,7 @@ function App() {
       <Gradient/>
       <Projects projects={projectsData}/>
       <Gradient/>
-      <Contact/>
+      <Techs/>
       <Gradient/>
       <Footer/>
     </>
