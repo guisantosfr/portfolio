@@ -6,7 +6,6 @@
 }
 
 .intro p {
-  font-size: 1.2rem;
   line-height: 1.5;
 }
 
@@ -15,6 +14,7 @@
 }
 
 .name {
+  font-size: 1.2rem;
   font-family: var(--mono);
 }
 
@@ -37,6 +37,10 @@
 .intro h2 {
   font-size: 1.5rem;
   font-weight: normal;
+}
+
+.description{
+  font-size: 1.1rem;
 }
 
 @media(min-width: 650px) {
