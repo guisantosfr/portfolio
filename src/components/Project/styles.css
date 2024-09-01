@@ -1,8 +1,5 @@
 article img {
-  margin: 2rem 0 4rem 0;
-  border-top: 2px solid var(--aqua);
-  border-left: 2px solid var(--aqua);
-  border-radius: 25px;
+  margin-top: 1rem;
   padding: 1rem;
 }
 
@@ -37,7 +34,7 @@ article img {
   font-size: 1.1rem;
 }
 
-@media(min-width: 650px) {
+/* @media(min-width: 650px) {
   article {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -73,4 +70,4 @@ article img {
   .reverse ul {
     justify-content: flex-start;
   }
-}
+} */

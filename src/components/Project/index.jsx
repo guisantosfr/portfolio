@@ -1,10 +1,12 @@
 import './styles.css'
 
-function Project({ project, index }) {
-  const isOdd = index % 2 !== 0
 
+function Project({ project }) {
+  
   return (
-    <article className={isOdd ? 'reverse' : null}>
+    <article>
+      <img src={project.img} alt={`Screenshot of ${project.name}`} loading="lazy" />
+
       <div className="text">
         <h3>{project.name}</h3>
 
@@ -22,7 +24,6 @@ function Project({ project, index }) {
         </ul>
       </div>
 
-      <img src={project.img} alt={`Screenshot of ${project.name}`} loading="lazy" />
     </article>
   )
 }
