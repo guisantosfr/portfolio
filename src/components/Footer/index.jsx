@@ -36,7 +36,7 @@ function Footer() {
         </li>
       </ul>
 
-      <p><small>&copy; Guilherme Santos - {{ new Date().getFullYear() }} - Todos os direitos reservados.</small></p>
+      <p><small>&copy; Guilherme Santos - { new Date().getFullYear() } - Todos os direitos reservados.</small></p>
 
       <p className="back-to-top" onClick={() => {
         window.scrollTo({
