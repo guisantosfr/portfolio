@@ -1,8 +1,8 @@
 import './styles.css'
 
 function Techs() {
-  const mainTechs = ["React", "Vue", "Node.js", "React Native"];
-  const secondaryTechs = ["Python", "Java", "SQL"];
+  const mainTechs = ["React", "Vue", "React Native"];
+  const secondaryTechs = ["Node.js", "PHP", "Laravel", "Python", "Java", "SQL"];
 
   return (
     <section id="techs" className="techs">

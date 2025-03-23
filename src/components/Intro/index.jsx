@@ -10,7 +10,7 @@ function Intro() {
       <h2>Front-end Developer</h2>
 
       <p className="description">Desenvolvedor front-end com experiência acadêmica e profissional.<br />
-      Atualmente estagiário na startup Inkless, do <a href="http://www.hospitalgastrovita.com.br/" target='_blank'>Hospital Gastrovita</a></p>
+      Atualmente atuando no <a href="https://achemed.com.br/" target='_blank'>Achemed</a></p>
     </section>
   )
 }
