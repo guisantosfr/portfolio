@@ -10,7 +10,7 @@ function Intro() {
       <h2>Front-end Developer</h2>
 
       <p className="description">Desenvolvedor front-end com experiência acadêmica e profissional.<br />
-      Atualmente atuando no <a href="https://achemed.com.br/" target='_blank'>Achemed</a></p>
+      Atualmente atuando no <a href="https://achemed.com.br/" target='_blank'>Achemed</a>.</p>
     </section>
   )
 }
