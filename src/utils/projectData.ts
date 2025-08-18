@@ -1,6 +1,7 @@
 import { Project } from '@/types/project';
 
-import vueEcommerceMockup from '@/assets/vue-ecommerce.png';
+//import vueEcommerceMockup from '@/assets/vue-ecommerce.png';
+import nextStoreMockup from '@/assets/next-store.png';
 import whereInTheWorldMockup from '@/assets/where-in-the-world.png';
 import engajaEduMockup from '@/assets/engaja-edu.png';
 import ipAddressTrackerMockup from '@/assets/ip-address-tracker.png';
@@ -16,11 +17,11 @@ const projects: Project[] = [
   },
   {
     id: 2,
-    name: 'Vue e-commerce',
-    description: 'Protótipo de aplicação de e-commerce desenvolvido com Vue.js.',
-    sourceCode: 'https://github.com/guisantosfr/vue-ecommerce',
-    liveUrl: 'https://vue-ecommerce-guisantosfr.vercel.app/',
-    img: vueEcommerceMockup
+    name: 'Next Store',
+    description: 'Protótipo de aplicação de e-commerce desenvolvido com Nextjs.',
+    sourceCode: 'https://github.com/guisantosfr/next-store',
+    liveUrl: 'https://next-store-guisantosfr.vercel.app/',
+    img: nextStoreMockup
   },
   {
     id: 3,
