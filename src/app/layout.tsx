@@ -7,7 +7,7 @@ config.autoAddCss = false
 
 export const metadata: Metadata = {
   title: "Guilherme Santos - Portfolio",
-  description: "Portfólio do desenvolvedor front-end Guilherme Santos",
+  description: "Portfólio do desenvolvedor fullstack Guilherme Santos",
 };
 
 export default function RootLayout({
