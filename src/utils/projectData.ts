@@ -18,7 +18,7 @@ const projects: Project[] = [
   },
   {
     id: 2,
-    name: 'Barber SaaS',
+    name: 'FSW Barber',
     description: 'Aplicação web fullstack para gerenciamento de barbearias, com autenticação Google e agendamento de serviços.',
     sourceCode: 'https://github.com/guisantosfr/fsw-barber',
     liveUrl: 'https://barber-saas-guisantosfr.vercel.app/',
