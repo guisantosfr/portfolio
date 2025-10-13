@@ -8,9 +8,9 @@ export default function Intro() {
             </span>
         </p>
   
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-normal">Front-end Developer</h2>
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-normal">Fullstack Developer</h2>
   
-        <p className="text-lg sm:text-xl md:text-2xl leading-relaxed mt-5">Desenvolvedor front-end com experiência acadêmica e profissional.<br />
+        <p className="text-lg sm:text-xl md:text-2xl leading-relaxed mt-5">Desenvolvedor fullstack com experiência acadêmica e profissional.<br />
         Atualmente atuando no <a href="https://achemed.com.br/" target='_blank' className="text-[#1061e3]">Achemed</a>.</p>
       </section>
     )
