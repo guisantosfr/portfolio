@@ -38,20 +38,6 @@ export default function Header() {
             <span className="sr-only">Github</span>
           </Link>
         </li>
-
-        <li>
-          <Link href="mailto:santosgui678@gmail.com" target="_blank" className="text-white no-underline block hover:text-[#1061e3]">
-            <FontAwesomeIcon icon={faEnvelope} aria-hidden="true" className='mr-2 text-[175%] text-[#86fbfb] hover:text-[#1061e3]' title="Email" />
-            <span className="sr-only">Email</span>
-          </Link>
-        </li>
-
-        <li>
-          <Link href="https://drive.google.com/file/d/1JL1u2eWsARiTx12bamOMfrCgGfCEe3Jq/view?usp=sharing" target="_blank" className="text-white no-underline block hover:text-[#1061e3]">
-            <FontAwesomeIcon icon={faFile} aria-hidden="true" className='mr-2 text-[175%] text-[#86fbfb] hover:text-[#1061e3]' title="Currículo"/>
-            <span className="sr-only">Currículo</span>
-          </Link>
-        </li>
       </ul>
     </nav>
   )

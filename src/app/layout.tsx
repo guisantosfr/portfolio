@@ -6,8 +6,8 @@ import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
 
 export const metadata: Metadata = {
-  title: "Guilherme Santos - Portfolio",
-  description: "Portfólio do desenvolvedor fullstack Guilherme Santos",
+  title: "Guilherme Santos",
+  description: "Portfólio do desenvolvedor Guilherme Santos",
 };
 
 export default function RootLayout({
