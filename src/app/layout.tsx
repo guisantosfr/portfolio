@@ -5,6 +5,8 @@ import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
 
+import { Analytics } from "@vercel/analytics/next"
+
 export const metadata: Metadata = {
   title: "Guilherme Santos",
   description: "Portfólio do desenvolvedor Guilherme Santos",
@@ -20,6 +22,7 @@ export default function RootLayout({
       <body
         className={`antialiased`}
       >
+        <Analytics />
         {children}
       </body>
     </html>
