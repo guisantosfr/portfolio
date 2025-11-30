@@ -1,3 +1,4 @@
+import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 import Gradient from "@/components/Gradient";
 import Header from "@/components/Header";
@@ -18,6 +19,8 @@ export default function Home() {
       <Projects projects={projectData}/>
       <Gradient />
       <Techs mainTechs={mainTechs} secondaryTechs={secondaryTechs} />
+      <Gradient />
+      <ContactForm />
       <Gradient />
       <Footer />
     </div>
