@@ -119,12 +119,12 @@ export const mySkills: Skill[] = [
   },
   {
     name: "MongoDB",
-    categories: ["banco de dados", "backend", "no-sql"],
+    categories: ["banco de dados", "backend"],
     icon: mongodb
   },
   {
     name: "Linux",
-    categories: ["sistema operacional", "devops"],
+    categories: ["devops"],
     icon: linux
   },
   {
@@ -134,12 +134,12 @@ export const mySkills: Skill[] = [
   },
   {
     name: "Github",
-    categories: ["ferramenta", "controle de versão", "plataforma"],
+    categories: ["ferramenta", "controle de versão"],
     icon: github
   },
   {
     name: "Bitbucket",
-    categories: ["ferramenta", "controle de versão", "plataforma"],
+    categories: ["ferramenta", "controle de versão"],
     icon: bitbucket
   },
   {
