@@ -75,6 +75,16 @@ export const mySkills: Skill[] = [
     icon: nodejs
   },
   {
+    name: "NestJS",
+    categories: ["backend", "framework", "javascript"],
+    icon: nest
+  },
+  {
+    name: "Prisma",
+    categories: ["backend", "banco de dados", "orm"],
+    icon: prisma
+  },
+  {
     name: "PHP",
     categories: ["linguagem", "backend"],
     icon: php
@@ -153,15 +163,5 @@ export const mySkills: Skill[] = [
     name: "Docker",
     categories: ["devops", "containerização", "infraestrutura"],
     icon: docker
-  },
-  {
-    name: "NestJS",
-    categories: ["backend", "framework", "javascript"],
-    icon: nest
-  },
-  {
-    name: "Prisma",
-    categories: ["backend", "banco de dados", "orm"],
-    icon: prisma
   }
 ];
