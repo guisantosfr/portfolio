@@ -11,6 +11,8 @@ import reactnative from '../assets/skills/react-native.svg';
 import nodejs from '../assets/skills/node-js.svg';
 import php from '../assets/skills/php.svg';
 import laravel from '../assets/skills/laravel.svg';
+import nest from '../assets/skills/nest.svg';
+import prisma from '../assets/skills/prisma.svg'
 import python from '../assets/skills/python.svg';
 import java from '../assets/skills/java.svg';
 import tailwind from '../assets/skills/tailwind.svg';
@@ -151,5 +153,15 @@ export const mySkills: Skill[] = [
     name: "Docker",
     categories: ["devops", "containerização", "infraestrutura"],
     icon: docker
+  },
+  {
+    name: "NestJS",
+    categories: ["backend", "framework", "javascript"],
+    icon: nest
+  },
+  {
+    name: "Prisma",
+    categories: ["backend", "banco de dados", "orm"],
+    icon: nest
   }
 ];

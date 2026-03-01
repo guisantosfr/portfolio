@@ -1,5 +1,6 @@
 import { Project } from '@/types/project';
 
+import engageQuizMockup from '@/assets/engage-quiz.png';
 //import vueEcommerceMockup from '@/assets/vue-ecommerce.png';
 import nextStoreMockup from '@/assets/next-store.png';
 import whereInTheWorldMockup from '@/assets/where-in-the-world.png';
@@ -10,11 +11,11 @@ import barberSaaSMockup from '@/assets/barber-saas.png';
 const projects: Project[] = [
   {
     id: 1,
-    name: 'Engaja Edu',
+    name: 'EngageQuiz',
     description: 'Aplicação multiplataforma web e mobile desenvolvida para promover engajamento de estudantes em sala de aula.',
-    sourceCode: 'https://github.com/guisantosfr/engajamento-teacher-web',
-    liveUrl: 'https://engaja-edu.vercel.app/',
-    img: engajaEduMockup
+    sourceCode: null,
+    liveUrl: null,
+    img: engageQuizMockup
   },
   {
     id: 2,

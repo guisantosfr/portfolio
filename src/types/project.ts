@@ -4,8 +4,8 @@ type Project = {
     id: number;
     name: string;
     description: string;
-    sourceCode: string;
-    liveUrl: string;
+    sourceCode?: string;
+    liveUrl?: string;
     img: StaticImageData;
 }
 
