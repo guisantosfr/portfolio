@@ -162,6 +162,6 @@ export const mySkills: Skill[] = [
   {
     name: "Prisma",
     categories: ["backend", "banco de dados", "orm"],
-    icon: nest
+    icon: prisma
   }
 ];
