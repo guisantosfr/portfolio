@@ -3,6 +3,7 @@ import Divider from "./_components/divider";
 import Header from "./_components/header";
 import Hero from "./_components/hero";
 import Projects from "./_components/projects";
+import Skills from "./_components/skills";
 
 export default function Portfolio() {
   return (
@@ -49,6 +50,8 @@ export default function Portfolio() {
       <Projects />
 
       <Divider />
+
+      <Skills />
 
     </div>
   )

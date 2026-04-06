@@ -17,7 +17,7 @@ export const projects = [
     {
         id: 'fsw-barber',
         title: 'FSW Barber',
-        description: 'Aplicação web fullstack para gerenciamento de barbearias, com autenticação Google e agendamento de serviços.',
+        description: 'SaaS fullstack para gerenciamento de barbearias, com autenticação Google e agendamento de serviços.',
         images: [
             '/projects/fsw-barber-mockup.png',
             '/projects/fsw-barber-sidebar-mockup.png',
@@ -31,7 +31,11 @@ export const projects = [
         id: 'app-agendamentos',
         title: 'App Agendamentos',
         description: 'Aplicativo mobile React Native para agendamentos, desenvolvido como teste técnico.',
-        images: ['/projects/scheduling-app-mockup-1.png', '/projects/scheduling-app-mockup-2.png', '/projects/scheduling-app-mockup-3.png'],
+        images: [
+            '/projects/scheduling-app-mockup-1.png', 
+            '/projects/scheduling-app-mockup-2.png', 
+            '/projects/scheduling-app-mockup-3.png'
+        ],
         tags: ['Mobile', 'React Native'],
         githubUrl: 'https://github.com/guisantosfr/medclub-teste',
         deployUrl: '#',
