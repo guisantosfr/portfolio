@@ -1,3 +1,5 @@
+import About from "./_components/about";
+import Divider from "./_components/divider";
 import Header from "./_components/header";
 import Hero from "./_components/hero";
 
@@ -38,6 +40,10 @@ export default function Portfolio() {
       <Header />
 
       <Hero />
+
+      <About />
+      
+      <Divider />
 
     </div>
   )
