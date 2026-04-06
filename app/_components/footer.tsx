@@ -1,3 +1,5 @@
+'use client';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
@@ -28,11 +30,13 @@ export default function Footer() {
 
       <div className="flex flex-col items-center gap-4">
         <p className="text-lg text-[#8ab4d8]">© Guilherme Santos · {new Date().getFullYear()} - Todos os direitos reservados</p>
-        <Button asChild variant="ghost" className="font-mono text-[#3a91f0] hover:text-[#00d4ff] flex items-center gap-1.5 transition-colors group cursor-pointer hover:bg-transparent">
-          <a>
-            <FontAwesomeIcon icon={faChevronUp} size='lg' />
-            Voltar ao topo
-          </a>
+        <Button
+          variant="ghost"
+          className="font-mono text-[#3a91f0] hover:text-[#00d4ff] flex items-center gap-1.5 transition-colors group cursor-pointer hover:bg-transparent"
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+          <FontAwesomeIcon icon={faChevronUp} size='lg' />
+          Voltar ao topo
+
         </Button>
       </div>
     </footer>

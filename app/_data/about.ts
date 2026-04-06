@@ -1,4 +1,11 @@
 export const aboutData = {
+    name: 'Guilherme Santos',
+    socialLinks: {
+        whatsapp: 'https://wa.me/5586988775657',
+        linkedin: 'https://linkedin.com/in/guisantosfr',
+        github: 'https://github.com/guisantosfr'
+    },
+    cvUrl: 'https://drive.google.com/file/d/15V8wU7m6K0x6IX7s3Turlo69hTPO1h8O/view?usp=sharing', // Exemplo de link do Google Drive
     aboutMe: [
         "Sou desenvolvedor de software com foco em aplicações web e mobile, atuando tanto no frontend quanto no backend. Tenho experiência com tecnologias como React, Vue, Node.js e React Native, desenvolvendo soluções que priorizam performance, organização e boa experiência do usuário.",
         "Ao longo da minha trajetória, participei de projetos acadêmicos e profissionais que que contribuíram para o desenvolvimento do meu pensamento crítico e da minha organização como desenvolvedor.",
