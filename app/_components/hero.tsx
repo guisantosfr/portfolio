@@ -16,28 +16,28 @@ export default function Hero() {
         Guilherme Santos
       </h1>
 
-      <div className="flex items-center gap-4 mb-12 animate-fade-up delay-500">
-        <Button asChild variant="outline" size="icon" className="w-14 h-14 rounded-xl border-[#3a91f0]/20 text-[#8ab4d8] bg-[#1255b3]/10 hover:text-[#00d4ff] hover:border-[#00d4ff] hover:bg-[#00d4ff]/10 transition-all">
+      <div className="flex items-center gap-5 mb-12 animate-fade-up delay-500">
+        <Button asChild variant="outline" size="icon" className="w-16 h-16 rounded-xl border-[#3a91f0]/20 text-[#8ab4d8] bg-[#1255b3]/10 hover:text-[#00d4ff] hover:border-[#00d4ff] hover:bg-[#00d4ff]/10 transition-all">
           <a href="https://wa.me/5586988775657" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faWhatsapp} size="3x" />
+            <FontAwesomeIcon icon={faWhatsapp} size="2x" />
           </a>
         </Button>
-        <Button asChild variant="outline" size="icon" className="w-14 h-14 rounded-xl border-[#3a91f0]/20 text-[#8ab4d8] bg-[#1255b3]/10 hover:text-[#00d4ff] hover:border-[#00d4ff] hover:bg-[#00d4ff]/10 transition-all">
+        <Button asChild variant="outline" size="icon" className="w-16 h-16 rounded-xl border-[#3a91f0]/20 text-[#8ab4d8] bg-[#1255b3]/10 hover:text-[#00d4ff] hover:border-[#00d4ff] hover:bg-[#00d4ff]/10 transition-all">
           <a href="https://linkedin.com/in/guisantosfr" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faLinkedin} size="3x" />
+            <FontAwesomeIcon icon={faLinkedin} size="2x" />
           </a>
         </Button>
-        <Button asChild variant="outline" size="icon" className="w-14 h-14 rounded-xl border-[#3a91f0]/20 text-[#8ab4d8] bg-[#1255b3]/10 hover:text-[#00d4ff] hover:border-[#00d4ff] hover:bg-[#00d4ff]/10 transition-all">
+        <Button asChild variant="outline" size="icon" className="w-16 h-16 rounded-xl border-[#3a91f0]/20 text-[#8ab4d8] bg-[#1255b3]/10 hover:text-[#00d4ff] hover:border-[#00d4ff] hover:bg-[#00d4ff]/10 transition-all">
           <a href="https://github.com/guisantosfr" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faGithub} size="3x" />
+            <FontAwesomeIcon icon={faGithub} size="2x" />
           </a>
         </Button>
       </div>
 
       <div className="animate-fade-up delay-900">
-        <Button asChild className="gap-2 px-8 py-6 rounded-xl bg-[#1e6fd4] text-white font-bold tracking-wide transition-all hover:bg-[#3a91f0] hover:-translate-y-1 hover:shadow-[0_8px_32px_rgba(30,111,212,0.35)] text-lg">
+        <Button asChild className="gap-2 px-8 py-6 rounded-xl bg-[#1e6fd4] text-white font-bold tracking-wide transition-all hover:bg-[#3a91f0] hover:-translate-y-1 hover:shadow-[0_8px_32px_rgba(30,111,212,0.35)] text-xl">
           <a href="#">
-            <FontAwesomeIcon icon={faFile} />
+            <FontAwesomeIcon icon={faFile} size="lg" />
             Ver Currículo
           </a>
         </Button>

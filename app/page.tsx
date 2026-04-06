@@ -2,6 +2,7 @@ import About from "./_components/about";
 import Divider from "./_components/divider";
 import Header from "./_components/header";
 import Hero from "./_components/hero";
+import Projects from "./_components/projects";
 
 export default function Portfolio() {
   return (
@@ -43,6 +44,10 @@ export default function Portfolio() {
 
       <About />
       
+      <Divider />
+
+      <Projects />
+
       <Divider />
 
     </div>
