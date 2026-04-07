@@ -43,8 +43,8 @@ export function ProjectCard({ project }: ProjectCardProps) {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="w-12 h-12 absolute left-4 top-1/2 -translate-y-1/2 border-none text-white bg-black/80" />
-            <CarouselNext className="w-12 h-12 absolute right-4 top-1/2 -translate-y-1/2 border-none text-white bg-black/80" />
+            <CarouselPrevious className="w-10 h-10 absolute left-4 top-1/2 -translate-y-1/2 border-none text-white bg-black/80" />
+            <CarouselNext className="w-10 h-10 absolute right-4 top-1/2 -translate-y-1/2 border-none text-white bg-black/80" />
           </Carousel>
         ) : (
           <img src={project.images[0]} alt={project.title} className="w-full h-full object-cover scale-110" />
@@ -58,34 +58,34 @@ export function ProjectCard({ project }: ProjectCardProps) {
             </Badge>
           ))}
         </div>
-        <h3 className="text-xl text-white font-bold mb-2">{project.title}</h3>
-        <p className="text-xl text-[#8ab4d8] leading-relaxed flex-1">
+        <h3 className="text-lg text-white font-bold mb-2">{project.title}</h3>
+        <p className="text-[#8ab4d8] leading-relaxed flex-1">
           {project.description}
         </p>
         <div className="flex gap-3 mt-6 flex-wrap">
           {project.githubBackend && (
-            <Button asChild variant="outline" className="flex items-center gap-2 p-6 text-xl rounded-lg bg-transparent text-[#00d4ff] border-2 border-[#00d4ff] hover:bg-[#00d4ff]/10 hover:-translate-y-0.5 transition-all font-semibold">
+            <Button asChild variant="outline" className="flex items-center gap-2 p-4 text-xl rounded-lg bg-transparent text-[#00d4ff] border-2 border-[#00d4ff] hover:bg-[#00d4ff]/10 hover:-translate-y-0.5 transition-all font-semibold">
               <a href={project.githubBackend} target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faGithub} /> Backend
               </a>
             </Button>
           )}
           {project.githubFrontend && (
-            <Button asChild variant="outline" className="flex items-center gap-2 p-6 text-xl rounded-lg bg-transparent text-[#00d4ff] border-2 border-[#00d4ff] hover:bg-[#00d4ff]/10 hover:-translate-y-0.5 transition-all font-semibold">
+            <Button asChild variant="outline" className="flex items-center gap-2 p-4 text-xl rounded-lg bg-transparent text-[#00d4ff] border-2 border-[#00d4ff] hover:bg-[#00d4ff]/10 hover:-translate-y-0.5 transition-all font-semibold">
               <a href={project.githubFrontend} target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faGithub} /> Frontend
               </a>
             </Button>
           )}
           {project.githubMobile && (
-            <Button asChild variant="outline" className="flex items-center gap-2 p-6 text-xl rounded-lg bg-transparent text-[#00d4ff] border-2 border-[#00d4ff] hover:bg-[#00d4ff]/10 hover:-translate-y-0.5 transition-all font-semibold">
+            <Button asChild variant="outline" className="flex items-center gap-2 p-4 text-xl rounded-lg bg-transparent text-[#00d4ff] border-2 border-[#00d4ff] hover:bg-[#00d4ff]/10 hover:-translate-y-0.5 transition-all font-semibold">
               <a href={project.githubMobile} target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faGithub} /> Mobile
               </a>
             </Button>
           )}
           {project.deployUrl && (
-            <Button asChild className="flex items-center gap-2 p-6 text-xl rounded-lg bg-[#1e6fd4] text-white hover:bg-[#3a91f0] hover:-translate-y-0.5 transition-all font-semibold">
+            <Button asChild className="flex items-center gap-2 p-4 text-xl rounded-lg bg-[#1e6fd4] text-white hover:bg-[#3a91f0] hover:-translate-y-0.5 transition-all font-semibold">
               <a href={project.deployUrl} target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faArrowUpRightFromSquare} /> Deploy
               </a>

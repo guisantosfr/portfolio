@@ -22,7 +22,7 @@ export default function Skills() {
           <ToggleGroupItem
             key={f.id}
             value={f.id}
-            className={`text-lg font-semibold tracking-wide px-6 py-3 h-auto rounded-lg border-2 transition-all select-none data-[state=on]:bg-[#1e6fd4] data-[state=on]:text-white data-[state=on]:border-[#1e6fd4] data-[state=on]:shadow-[0_0_16px_rgba(30,111,212,0.3)] bg-[#071a3a]/50 text-[#8ab4d8] border-[#3a91f0]/20 hover:text-white hover:border-[#3a91f0]`}
+            className={`font-semibold tracking-wide px-6 py-3 h-auto rounded-lg border-2 transition-all select-none data-[state=on]:bg-[#1e6fd4] data-[state=on]:text-white data-[state=on]:border-[#1e6fd4] data-[state=on]:shadow-[0_0_16px_rgba(30,111,212,0.3)] bg-[#071a3a]/50 text-[#8ab4d8] border-[#3a91f0]/20 hover:text-white hover:border-[#3a91f0]`}
           >
             {f.label}
           </ToggleGroupItem>
