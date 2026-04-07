@@ -4,14 +4,16 @@ export const projects = [
         title: 'EngageQuiz',
         description: 'MVP de aplicação multiplataforma para criação e aplicação de questionários em tempo real.',
         images: [
-            '/projects/engage-quiz-web-mockup.png', 
+            '/projects/engage-quiz-web-mockup.png',
             '/projects/engage-quiz-mobile-mockup.png',
             '/projects/engage-quiz-lobby-mockup.png',
             '/projects/engage-quiz-results-mockup.png',
             '/projects/engage-quiz-podium-mockup.png',
         ],
         tags: ['Backend', 'Web', 'Mobile', 'Nest.js', 'Next.js', 'React Native'],
-        githubUrl: '#',
+        githubBackend: 'https://github.com/guisantosfr/engage-quiz-backend',
+        githubFrontend: 'https://github.com/guisantosfr/engage-quiz-teacher',
+        githubMobile: 'https://github.com/guisantosfr/engage-quiz-student',
         deployUrl: 'https://engage-quiz-teacher-guisantosfr.vercel.app/',
     },
     {
@@ -24,7 +26,9 @@ export const projects = [
             '/projects/fsw-barber-barbershop-mockup.png'
         ],
         tags: ['Web', 'Next.js', 'Prisma', 'Google Auth'],
-        githubUrl: 'https://github.com/guisantosfr/fsw-barber',
+        githubBackend: null,
+        githubFrontend: 'https://github.com/guisantosfr/fsw-barber',
+        githubMobile: null,
         deployUrl: 'https://barber-saas-guisantosfr.vercel.app/',
     },
     {
@@ -32,13 +36,15 @@ export const projects = [
         title: 'App Agendamentos',
         description: 'Aplicativo mobile React Native para agendamentos, desenvolvido como teste técnico.',
         images: [
-            '/projects/scheduling-app-mockup-1.png', 
-            '/projects/scheduling-app-mockup-2.png', 
+            '/projects/scheduling-app-mockup-1.png',
+            '/projects/scheduling-app-mockup-2.png',
             '/projects/scheduling-app-mockup-3.png'
         ],
         tags: ['Mobile', 'React Native'],
-        githubUrl: 'https://github.com/guisantosfr/medclub-teste',
-        deployUrl: '#',
+        githubBackend: null,
+        githubFrontend: null,
+        githubMobile: 'https://github.com/guisantosfr/medclub-teste',
+        deployUrl: null,
     },
     {
         id: 'ecommerce',
@@ -46,7 +52,9 @@ export const projects = [
         description: 'Protótipo de e-commerce desenvolvido com Vue.js',
         images: ['/projects/vue-ecommerce-mockup.png'],
         tags: ['Web', 'Vue.js'],
-        githubUrl: 'https://github.com/guisantosfr/vue-ecommerce',
+        githubBackend: null,
+        githubFrontend: 'https://github.com/guisantosfr/vue-ecommerce',
+        githubMobile: null,
         deployUrl: 'https://vue-ecommerce-guisantosfr.vercel.app/',
     }
 ];
