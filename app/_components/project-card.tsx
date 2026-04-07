@@ -23,7 +23,7 @@ export type Project = {
   githubBackend: string | null;
   githubFrontend: string | null;
   githubMobile: string | null;
-  deployUrl: string;
+  deployUrl: string | null;
 }
 
 interface ProjectCardProps {
