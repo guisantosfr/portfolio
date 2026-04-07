@@ -33,10 +33,10 @@ export default function Skills() {
         {filteredSkills.map((skill, index) => (
           <div
             key={index}
-            className="group relative bg-[#071a3a]/85 border border-[#3a91f0]/20 rounded-xl p-5 flex flex-col items-center gap-3 transition-all duration-300 hover:-translate-y-1 hover:border-[#3a91f0]/40 hover:shadow-[0_12px_32px_rgba(0,0,0,0.3)] overflow-hidden"
+            className="group relative bg-[#071a3a]/85 border border-[#3a91f0]/20 rounded-xl p-4 flex flex-col items-center gap-3 transition-all duration-300 hover:-translate-y-1 hover:border-[#3a91f0]/40 hover:shadow-[0_12px_32px_rgba(0,0,0,0.3)] overflow-hidden"
           >
             <div className="absolute inset-0 bg-linear-to-br from-[#1e6fd4]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-            <img src={skill.icon} alt={skill.name} className="w-24 h-24 object-contain" />
+            <img src={skill.icon} alt={skill.name} className="w-20 h-20 object-contain" />
             <span className="text-lg font-semibold text-[#8ab4d8] group-hover:text-white transition-colors z-10 text-center">
               {skill.name}
             </span>

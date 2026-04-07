@@ -27,7 +27,7 @@ export function ExperienceCard({ exp }: ExperienceCardProps) {
           {exp.period}
         </Badge>
       </div>
-      <ul className="list-disc list-inside text-[#8ab4d8] space-y-3 marker:text-[#00d4ff]">
+      <ul className="text-lg list-disc list-inside text-[#8ab4d8] space-y-3 marker:text-[#00d4ff]">
         {exp.responsibilities.map((resp, index) => (
           <li key={index}>{resp}</li>
         ))}
