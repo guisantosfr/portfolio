@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function Header() {
     const links = [
         {
@@ -12,12 +14,12 @@ export default function Header() {
             name: "Habilidades",
             href: "#skills"
         },
-
     ]
 
     return (
         <header className="sticky top-0 z-50 flex items-center justify-between p-10 md:px-20 md:py-12 h-17 bg-[#030d1f]/80 backdrop-blur-xl border-b border-[#3a91f0]/20">
-            <span className="text-white">GS</span>
+            <Image src="/logo.svg" width={125} height={125}
+                alt="Logo Guilherme Santos" title="Logo" loading="eager" />
 
             <nav className="hidden md:flex items-center gap-12">
                 {links.map((item) => (

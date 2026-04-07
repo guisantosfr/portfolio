@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Porfólio - Guilherme Santos",
   description: "Portfolio do desenvolvedor Guilherme Santos",
+  icons: {
+    icon: '/logo.svg'
+  }
 };
 
 export default function RootLayout({
