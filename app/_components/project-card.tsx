@@ -59,10 +59,10 @@ export function ProjectCard({ project }: ProjectCardProps) {
           ))}
         </div>
         <h3 className="text-xl text-white font-bold mb-2">{project.title}</h3>
-        <p className="text-lg text-[#8ab4d8] leading-relaxed flex-1">
+        <p className="text-xl text-[#8ab4d8] leading-relaxed flex-1">
           {project.description}
         </p>
-        <div className="flex gap-3 mt-4 flex-wrap">
+        <div className="flex gap-3 mt-6 flex-wrap">
           {project.githubBackend && (
             <Button asChild variant="outline" className="flex items-center gap-2 p-6 text-xl rounded-lg bg-transparent text-[#00d4ff] border-2 border-[#00d4ff] hover:bg-[#00d4ff]/10 hover:-translate-y-0.5 transition-all font-semibold">
               <a href={project.githubBackend} target="_blank" rel="noreferrer">

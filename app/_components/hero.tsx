@@ -71,7 +71,7 @@ export default function Hero() {
 
       <div className="animate-fade-up delay-900">
         <Button
-          className="gap-2 px-8 py-6 rounded-xl bg-[#1e6fd4] text-white font-bold tracking-wide transition-all hover:bg-[#3a91f0] hover:-translate-y-1 hover:shadow-[0_8px_32px_rgba(30,111,212,0.35)] text-xl"
+          className="gap-2 p-8 rounded-xl bg-[#1e6fd4] text-white font-bold tracking-wide transition-all hover:bg-[#3a91f0] hover:-translate-y-1 hover:shadow-[0_8px_32px_rgba(30,111,212,0.35)] text-xl"
           onClick={openCV}>
           <FontAwesomeIcon icon={faFile} size="lg" />
           Ver Currículo
