@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Porfólio - Guilherme Santos",
+  title: "Portfólio - Guilherme Santos",
   description: "Portfolio do desenvolvedor Guilherme Santos",
   icons: {
     icon: '/logo.svg'
@@ -28,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="pt-br"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased scroll-smooth`}
     >
       <body className="min-h-full flex flex-col">
