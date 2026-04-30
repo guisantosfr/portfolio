@@ -9,8 +9,8 @@ export const aboutData = {
     aboutMe: [
         "Sou desenvolvedor de software com foco em aplicações web e mobile, atuando tanto no frontend quanto no backend. Tenho experiência com tecnologias como React, Vue, Node.js e React Native, desenvolvendo soluções que priorizam performance, organização e boa experiência do usuário.",
         "Ao longo da minha trajetória, participei de projetos acadêmicos e profissionais que que contribuíram para o desenvolvimento do meu pensamento crítico e da minha organização como desenvolvedor.",
-        "Tenho experiência na implementação de funcionalidades, manutenção de sistemas e resolução de problemas, sempre buscando entregar soluções claras, eficientes e bem estruturadas.",
-        "Também valorizo boas práticas de desenvolvimento, como organização de código, reutilização de componentes e preocupação com a escalabilidade das aplicações.",
+        "Tenho experiência na implementação de funcionalidades, manutenção de sistemas e resolução de problemas, sempre buscando entregar soluções claras e eficientes.",
+        "Também valorizo boas práticas de desenvolvimento, como organização de código e preocupação com a escalabilidade das aplicações.",
         "Estou constantemente aprendendo e buscando melhorar minhas habilidades, com o objetivo de desenvolver soluções cada vez mais completas e bem estruturadas.",
     ],
     experiences: [
