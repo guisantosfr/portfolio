@@ -1,5 +1,18 @@
 export const projects = [
     {
+        id: 'notasmart',
+        title: 'NotaSmart',
+        description: "Aplicativo de lista de compras com captura inteligente para ler produtos de uma nota fiscal usando IA",
+        images: [
+            '/projects/nota-smart-mockup.png'
+        ],
+        tags: ['Backend', 'Fastify', 'Mobile', 'React Native', 'Inteligência Artificial'],
+        githubBackend: null,
+        githubFrontend: null,
+        githubMobile: 'https://github.com/guisantosfr/nota-smart',
+        deployUrl: null,
+    },
+    {
         id: 'engagequiz',
         title: 'EngageQuiz',
         description: 'MVP de aplicação multiplataforma para criação e aplicação de questionários em tempo real.',
@@ -10,7 +23,7 @@ export const projects = [
             '/projects/engage-quiz-results-mockup.png',
             '/projects/engage-quiz-podium-mockup.png',
         ],
-        tags: ['Backend', 'Web', 'Mobile', 'Nest.js', 'Next.js', 'React Native'],
+        tags: ['Backend', 'Web', 'Mobile', 'Nest.js', 'Next.js', 'React Native', 'Inteligência Artificial'],
         githubBackend: 'https://github.com/guisantosfr/engage-quiz-backend',
         githubFrontend: 'https://github.com/guisantosfr/engage-quiz-teacher',
         githubMobile: 'https://github.com/guisantosfr/engage-quiz-student',
