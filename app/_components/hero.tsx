@@ -78,11 +78,6 @@ export default function Hero() {
 
         </Button>
       </div>
-
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-[#8ab4d8] text-xs tracking-widest uppercase animate-fade-up delay-1200">
-        <span>scroll</span>
-        <div className="w-1 h-10 bg-linear-to-b from-[#1e6fd4] to-transparent animate-scroll-line origin-top"></div>
-      </div>
     </section>
   )
 }
